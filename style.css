@@ -1,0 +1,19 @@
+h3
+{
+    font-size: 25px;
+}
+
+.btn-success:hover
+{
+    background-color: red;
+}
+
+canvas{
+    border: 1px black;
+    animation: example 4s infinite;
+}
+
+@keyframes examole {
+    from {box-shadow: 1px 1px 38px blue;}
+    to {box-shadow: 1px 1px 38px rgb(248, 102, 229);}
+}
